@@ -45,6 +45,8 @@ namespace WindowsActivator
 
             label1.ForeColor = Color.White;
             label2.ForeColor = Color.White;
+            label3.ForeColor = Color.White;
+            label4.ForeColor = Color.White;
             label5.ForeColor = Color.White;
 
 
@@ -186,6 +188,8 @@ namespace WindowsActivator
 
                 label1.ForeColor = Color.Black;
                 label2.ForeColor = Color.Black;
+                label3.ForeColor = Color.Black;
+                label4.ForeColor = Color.Black;
                 label5.ForeColor = Color.Black;
             }
             else
@@ -219,6 +223,8 @@ namespace WindowsActivator
 
                 label1.ForeColor = Color.White;
                 label2.ForeColor = Color.White;
+                label3.ForeColor = Color.White;
+                label4.ForeColor = Color.White;
                 label5.ForeColor = Color.White;
             }
         }

@@ -337,9 +337,9 @@
             this.checkBox1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.checkBox1.Location = new System.Drawing.Point(472, 35);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(119, 19);
+            this.checkBox1.Size = new System.Drawing.Size(118, 19);
             this.checkBox1.TabIndex = 2;
-            this.checkBox1.Text = "Show Information";
+            this.checkBox1.Text = "More Information";
             this.checkBox1.UseVisualStyleBackColor = false;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 

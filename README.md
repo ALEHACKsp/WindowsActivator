@@ -1,4 +1,4 @@
-# Windows Activator
+# WindowsActivator
 Activates Windows Systematically!
 
 To begin, download the compiled .exe file, or download the source, extract, and compile yourself.

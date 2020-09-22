@@ -1,5 +1,5 @@
 # WindowsActivator
-Activates Windows Systematically!
+Activates Windows Systematically! (For Free)
 
 To begin, download the compiled .exe file, or download the source, extract, and compile yourself.
 # Usage

@@ -4,6 +4,8 @@ Activates Windows Systematically!
 To begin, download the compiled .exe file, or download the source, extract, and compile yourself.
 # Usage
 
+**FIRST: DOWNLOAD .NET RUNTIME 4.7.2 TO RUN THIS PROGRAM: https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net472-web-installer**
+
 **You will be asked to input a version.** Simply input the number corresponding to your version of Windows and press enter.
 *If you don't know what version of windows you have, navigate to Settings->System->About and scroll to the Edition section.*
 

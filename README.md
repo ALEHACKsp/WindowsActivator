@@ -4,6 +4,7 @@ Activates Windows Systematically!
 To begin, download the compiled .exe file, or download the source, extract, and compile yourself.
 # Usage
 
+### Required Software:
 **IMPORTANT: YOU MUST DOWNLOAD .Net Runtime 4.7.2 to run WindowsActivator.**
 
 Download Link: https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net472-web-installer**

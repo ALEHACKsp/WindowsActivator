@@ -17,4 +17,6 @@ Download Link: https://dotnet.microsoft.com/download/dotnet-framework/thank-you/
 Accept all of the dialog boxes, or press `OK` and wait for the program to finish.
 Windows is now activated!
 
+
+
 **UPDATE: As of Release 1.5.2, all app icons can now be found in the `<WindowsActivator/WindowsActivator/Resources/>` folder.**

@@ -166,6 +166,7 @@ namespace WindowsActivator
                 button2.ForeColor = Color.Black;
                 button3.ForeColor = Color.Black;
                 button4.ForeColor = Color.Black;
+                button5.ForeColor = Color.Black;
 
                 groupBox1.ForeColor = Color.Black;
                 groupBox2.ForeColor = Color.Black;
@@ -201,6 +202,7 @@ namespace WindowsActivator
                 button2.ForeColor = Color.White;
                 button3.ForeColor = Color.White;
                 button4.ForeColor = Color.White;
+                button5.ForeColor = Color.White;
 
                 groupBox1.ForeColor = Color.White;
                 groupBox2.ForeColor = Color.White;
@@ -314,6 +316,19 @@ namespace WindowsActivator
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = "/C slmgr -dlv";
+            process.StartInfo = startInfo;
+            process.Start();
+            label4.Text = "Command: slmgr -dlv";
+            Thread.Sleep(500);
         }
     }
 }

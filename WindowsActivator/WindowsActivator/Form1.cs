@@ -235,7 +235,7 @@ namespace WindowsActivator
 
         private void openSource()
         {
-            System.Diagnostics.Process.Start("https://github.com/StrayfadeGH/WindowsActivator");
+            System.Diagnostics.Process.Start("https://github.com/Strayfade/WindowsActivator");
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -329,6 +329,11 @@ namespace WindowsActivator
             process.Start();
             label4.Text = "Command: slmgr -dlv";
             Thread.Sleep(500);
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

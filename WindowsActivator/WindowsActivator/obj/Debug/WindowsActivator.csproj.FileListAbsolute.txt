@@ -8,3 +8,6 @@ C:\Users\epicp\source\repos\WindowsActivator\WindowsActivator\obj\Debug\WindowsA
 C:\Users\epicp\source\repos\WindowsActivator\WindowsActivator\obj\Debug\WindowsActivator.exe
 C:\Users\epicp\source\repos\WindowsActivator\WindowsActivator\obj\Debug\WindowsActivator.pdb
 C:\Users\epicp\source\repos\WindowsActivator\WindowsActivator\obj\Debug\WindowsActivator.csprojAssemblyReference.cache
+C:\Users\epicp\Downloads\WindowsActivator-master\WindowsActivator-master\WindowsActivator\WindowsActivator\obj\Debug\WindowsActivator.csprojAssemblyReference.cache
+C:\Users\epicp\Downloads\WindowsActivator-master\WindowsActivator-master\WindowsActivator\WindowsActivator\obj\Debug\WindowsActivator.exe
+C:\Users\epicp\Downloads\WindowsActivator-master\WindowsActivator-master\WindowsActivator\WindowsActivator\obj\Debug\WindowsActivator.pdb

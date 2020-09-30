@@ -268,7 +268,7 @@
             // 
             this.button4.BackColor = System.Drawing.Color.Transparent;
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button4.Location = new System.Drawing.Point(623, 78);
             this.button4.Name = "button4";
@@ -294,7 +294,7 @@
             // 
             this.button3.BackColor = System.Drawing.Color.Transparent;
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.button3.Location = new System.Drawing.Point(623, 117);
             this.button3.Name = "button3";
@@ -410,6 +410,7 @@
             this.label5.Size = new System.Drawing.Size(320, 25);
             this.label5.TabIndex = 10;
             this.label5.Text = "Windows 10 Product Activation Toolkit";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // button5
             // 
@@ -444,7 +445,6 @@
             this.MaximumSize = new System.Drawing.Size(816, 489);
             this.MinimumSize = new System.Drawing.Size(816, 325);
             this.Name = "Form1";
-            this.ShowIcon = false;
             this.Text = "Windows 10 Product Activation Toolkit";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -487,7 +487,7 @@
             this.MinimumSize = new System.Drawing.Size(817, 322);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Windows 10 Product Activation Toolkit";
+            this.Text = "WindowsActivator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.groupBox1.ResumeLayout(false);

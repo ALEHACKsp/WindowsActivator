@@ -329,7 +329,7 @@ namespace WindowsActivator
         private void button2_Click(object sender, EventArgs e)
         {
             checkBox1.Checked = false;
-            radioButton1.Checked = false;
+            radioButton1.Checked = true;
             radioButton2.Checked = false;
             radioButton3.Checked = false;
             radioButton4.Checked = false;
@@ -384,9 +384,10 @@ namespace WindowsActivator
         private void Form1_Load(object sender, EventArgs e)
         {
             secondform.Show();
-            ActiveForm.Height = 304;
             Thread.Sleep(1500);
             secondform.Hide();
+
+            radioButton1.Checked = true;
         }
     }
 }

@@ -18,3 +18,4 @@ C:\Users\epicp\Downloads\WindowsActivator-master\WindowsActivator-master\Windows
 C:\Users\epicp\Downloads\WindowsActivator-master\WindowsActivator-master\WindowsActivator\WindowsActivator\obj\Debug\WindowsActivator.Properties.Resources.resources
 C:\Users\epicp\Downloads\WindowsActivator-master\WindowsActivator-master\WindowsActivator\WindowsActivator\obj\Debug\WindowsActivator.csproj.GenerateResource.cache
 C:\Users\epicp\Downloads\WindowsActivator-master\WindowsActivator-master\WindowsActivator\WindowsActivator\obj\Debug\WindowsActivator.csproj.CoreCompileInputs.cache
+C:\Users\epicp\Downloads\WindowsActivator-master\WindowsActivator-master\WindowsActivator\WindowsActivator\obj\Debug\WindowsActivator.csprojAssemblyReference.cache

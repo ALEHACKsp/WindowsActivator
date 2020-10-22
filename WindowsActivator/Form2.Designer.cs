@@ -37,7 +37,7 @@
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.BackgroundImage = global::WindowsActivator.Properties.Resources.unknown;
+            this.BackgroundImage = global::WindowsActivator.Properties.Resources.unknown2;
             this.ClientSize = new System.Drawing.Size(500, 250);
             this.ControlBox = false;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;

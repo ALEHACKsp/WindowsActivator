@@ -139,14 +139,27 @@ namespace WindowsActivator
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            groupBox2.Visible = checkBox1.Checked;
             if (!checkBox1.Checked)
             {
-                Form1.ActiveForm.Height = 328;
+                for (int i = Form1.ActiveForm.Height; i > Form1.ActiveForm.MinimumSize.Height; i--)
+                {
+                    i--;
+                    i--;
+                    i--;
+                    Form1.ActiveForm.Height = i;
+                }
+                groupBox2.Visible = false;
             }
             if (checkBox1.Checked)
             {
-                Form1.ActiveForm.Height = 489;
+                groupBox2.Visible = true;
+                for (int i = Form1.ActiveForm.Height; i < Form1.ActiveForm.MaximumSize.Height; i++)
+                {
+                    i++;
+                    i++;
+                    i++;
+                    Form1.ActiveForm.Height = i;
+                }
             }
         }
 
@@ -192,6 +205,14 @@ namespace WindowsActivator
                 label3.ForeColor = Color.Black;
                 label4.ForeColor = Color.Black;
                 label5.ForeColor = Color.Black;
+                label6.ForeColor = Color.Black;
+                label7.ForeColor = Color.Black;
+
+                pictureBox1.Visible = false;
+
+                groupBox1.ForeColor = Color.Black;
+                groupBox2.ForeColor = Color.Black;
+                groupBox3.ForeColor = Color.Black;
             }
             else
             {
@@ -228,6 +249,14 @@ namespace WindowsActivator
                 label3.ForeColor = Color.White;
                 label4.ForeColor = Color.White;
                 label5.ForeColor = Color.White;
+                label6.ForeColor = Color.White;
+                label7.ForeColor = Color.White;
+
+                pictureBox1.Visible = true;
+
+                groupBox1.ForeColor = Color.White;
+                groupBox2.ForeColor = Color.White;
+                groupBox3.ForeColor = Color.White;
             }
         }
 
@@ -355,6 +384,7 @@ namespace WindowsActivator
         private void Form1_Load(object sender, EventArgs e)
         {
             secondform.Show();
+            ActiveForm.Height = 304;
             Thread.Sleep(1500);
             secondform.Hide();
         }

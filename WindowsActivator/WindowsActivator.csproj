@@ -120,6 +120,12 @@
     <Content Include="applogo.ico" />
     <Content Include="Icon.ico" />
     <Content Include="logo.ico" />
+    <None Include="Resources\unknown2.png" />
+    <None Include="Resources\unknown1.png" />
+    <None Include="Resources\Splash.png" />
+    <None Include="Resources\Strayfade.jpg" />
+    <None Include="Resources\e2.png" />
+    <None Include="Resources\e.png" />
     <None Include="Resources\unknown.png" />
     <None Include="Resources\app.png" />
   </ItemGroup>

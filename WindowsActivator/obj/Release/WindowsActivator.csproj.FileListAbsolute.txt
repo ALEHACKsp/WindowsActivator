@@ -17,3 +17,4 @@ C:\Users\epicp\Downloads\WindowsActivator-master\WindowsActivator-master\Windows
 C:\Users\epicp\Downloads\WindowsActivator-master\WindowsActivator-master\WindowsActivator\WindowsActivator\obj\Release\WindowsActivator.csproj.GenerateResource.cache
 C:\Users\epicp\Downloads\WindowsActivator-master\WindowsActivator-master\WindowsActivator\WindowsActivator\obj\Release\WindowsActivator.csproj.CoreCompileInputs.cache
 C:\Users\epicp\Downloads\WindowsActivator-master\WindowsActivator-master\WindowsActivator\WindowsActivator\obj\Release\WindowsActivator.Form2.resources
+C:\Users\epicp\Downloads\WindowsActivator-master\WindowsActivator-master\WindowsActivator\WindowsActivator\obj\Release\WindowsActivator.csprojAssemblyReference.cache

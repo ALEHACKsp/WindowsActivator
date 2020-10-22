@@ -55,9 +55,13 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -270,9 +274,9 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button4.Location = new System.Drawing.Point(623, 78);
+            this.button4.Location = new System.Drawing.Point(677, 55);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(146, 33);
+            this.button4.Size = new System.Drawing.Size(92, 33);
             this.button4.TabIndex = 7;
             this.button4.Text = "My Twitter";
             this.button4.UseVisualStyleBackColor = false;
@@ -296,11 +300,11 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button3.Location = new System.Drawing.Point(623, 117);
+            this.button3.Location = new System.Drawing.Point(677, 94);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(146, 33);
+            this.button3.Size = new System.Drawing.Size(92, 33);
             this.button3.TabIndex = 5;
-            this.button3.Text = "View Source Code";
+            this.button3.Text = "Source Code";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
@@ -377,9 +381,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button1.Location = new System.Drawing.Point(685, 167);
+            this.button1.Location = new System.Drawing.Point(690, 167);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(103, 33);
+            this.button1.Size = new System.Drawing.Size(98, 33);
             this.button1.TabIndex = 3;
             this.button1.Text = "Start";
             this.button1.UseVisualStyleBackColor = false;
@@ -391,9 +395,9 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button2.Location = new System.Drawing.Point(685, 128);
+            this.button2.Location = new System.Drawing.Point(690, 128);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(103, 33);
+            this.button2.Size = new System.Drawing.Size(98, 33);
             this.button2.TabIndex = 4;
             this.button2.Text = "Reset Options";
             this.button2.UseVisualStyleBackColor = false;
@@ -405,11 +409,10 @@
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Segoe UI Semilight", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label5.Location = new System.Drawing.Point(287, 170);
+            this.label5.Location = new System.Drawing.Point(288, 190);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(320, 25);
+            this.label5.Size = new System.Drawing.Size(0, 25);
             this.label5.TabIndex = 10;
-            this.label5.Text = "Windows 10 Product Activation Toolkit";
             this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // button5
@@ -418,20 +421,57 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Segoe UI Semilight", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.button5.Location = new System.Drawing.Point(685, 206);
+            this.button5.Location = new System.Drawing.Point(690, 206);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(103, 33);
+            this.button5.Size = new System.Drawing.Size(98, 33);
             this.button5.TabIndex = 11;
             this.button5.Text = "View Activation";
             this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Segoe UI Semilight", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label6.Location = new System.Drawing.Point(261, 150);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(134, 17);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "WindowsActivator v2.0";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Segoe UI Semilight", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label7.Location = new System.Drawing.Point(259, 167);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(364, 30);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Windows 10 Product Activation Toolkit";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WindowsActivator.Properties.Resources.Strayfade;
+            this.pictureBox1.Location = new System.Drawing.Point(763, 256);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(26, 20);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 14;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.ClientSize = new System.Drawing.Size(806, 285);
+            this.ClientSize = new System.Drawing.Size(801, 283);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button2);
@@ -440,11 +480,11 @@
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.ForeColor = System.Drawing.Color.Black;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(806, 458);
-            this.MinimumSize = new System.Drawing.Size(806, 285);
+            this.MaximumSize = new System.Drawing.Size(817, 493);
+            this.MinimumSize = new System.Drawing.Size(817, 322);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Windows 10 Product Activation Toolkit";
@@ -456,6 +496,7 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -489,6 +530,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

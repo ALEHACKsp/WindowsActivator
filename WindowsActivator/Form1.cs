@@ -386,7 +386,7 @@ namespace WindowsActivator
             secondform.Show();
             Thread.Sleep(1500);
             secondform.Hide();
-
+            //activate();
             radioButton1.Checked = true;
         }
     }

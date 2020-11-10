@@ -1,6 +1,5 @@
 # WindowsActivator
 ![](https://img.shields.io/github/v/release/Strayfade/WindowsActivator)
-![](https://img.shields.io/github/languages/code-size/Strayfade/WindowsActivator?color=orange&label=Download%20Size)
 ![](https://img.shields.io/github/commit-activity/m/Strayfade/WindowsActivator)
 ![](https://img.shields.io/github/issues/Strayfade/WindowsActivator)
 ![](https://img.shields.io/github/license/Strayfade/WindowsActivator)
@@ -9,13 +8,17 @@ Activates Windows Systematically (For Free)!
 
 ### [Download](https://drive.google.com/drive/folders/1Ym18sCEyp7LkBxKj4YE2Wj8CLP0QzF9U?usp=sharing)
 To begin, download [the compiled .exe file](https://drive.google.com/drive/folders/1Ym18sCEyp7LkBxKj4YE2Wj8CLP0QzF9U?usp=sharing), or download the source, extract, and compile yourself.
+
+![](https://img.shields.io/github/languages/code-size/Strayfade/WindowsActivator?color=orange&label=Download%20Size)
 # Usage
 
 ![Sample](https://i.imgur.com/CgcAgVe.png)
 ### Required Software:
-**IMPORTANT: YOU MUST DOWNLOAD .Net Runtime 4.7.2 to run WindowsActivator.**
+**IMPORTANT: YOU MUST DOWNLOAD .Net Runtime 4 to run WindowsActivator.**
 
-Download Link: https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net472-web-installer
+Download Link: https://www.microsoft.com/en-us/download/confirmation.aspx?id=17718
+
+![](https://img.shields.io/badge/Prerequisities-.NET%20Runtime%204-violet)
 
 **WINDOWS 10 HOME IS THE DEFAULT!** If you do *not* have Windows 10 Home, press the Settings icon in the upper-right, and then select your preferred version of Windows.
 

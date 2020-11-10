@@ -1,5 +1,4 @@
 # WindowsActivator
-![Logo](/WindowsActivator/WindowsActivator/Resources/app.png)
 
 Activates Windows Systematically (For Free)!
 
@@ -31,3 +30,5 @@ Changing the **UI Sample Rate** slider will change the rate at which the RAM and
  - Development and UI Design - **[Strayfade](https://github.com/Strayfade)**
  - Circular Progress Bar - **[Falahati](https://github.com/falahati/CircularProgressBar)**
  - UI Inspiration - **[NiceHashMiner](https://github.com/nicehash/NiceHashMiner)**
+
+![Logo](/WindowsActivator/WindowsActivator/Resources/app.png)

@@ -1,4 +1,8 @@
-# WindowsActivator
+# <img src="WindowsActivator/WindowsActivator/Resources/app.png" width="42" alt="Icon"> WindowsActivator
+![](https://img.shields.io/github/v/release/Strayfade/WindowsActivator)
+![](https://img.shields.io/github/license/Strayfade/WindowsActivator)
+![](https://img.shields.io/github/issues/Strayfade/WindowsActivator)
+![](https://img.shields.io/github/downloads/Strayfade/WindowsActivator/total)
 
 Activates Windows Systematically (For Free)!
 
@@ -30,5 +34,6 @@ Changing the **UI Sample Rate** slider will change the rate at which the RAM and
  - Development and UI Design - **[Strayfade](https://github.com/Strayfade)**
  - Circular Progress Bar - **[Falahati](https://github.com/falahati/CircularProgressBar)**
  - UI Inspiration - **[NiceHashMiner](https://github.com/nicehash/NiceHashMiner)**
+ - UI Themed Switches - **[Siticone](https://siticoneframework.com)**
 
 ![Logo](/WindowsActivator/WindowsActivator/Resources/app.png)

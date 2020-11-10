@@ -1,23 +1,26 @@
 # WindowsActivator
 ![Logo](/WindowsActivator/WindowsActivator/Resources/app.png)
 
-Activates Windows Systematically! (For Free)
+Activates Windows Systematically (For Free)!
 
 To begin, download the compiled .exe file, or download the source, extract, and compile yourself.
 # Usage
 
+![Sample](https://i.imgur.com/CgcAgVe.png)
 ### Required Software:
 **IMPORTANT: YOU MUST DOWNLOAD .Net Runtime 4.7.2 to run WindowsActivator.**
 
 Download Link: https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net472-web-installer
 
-**You will be asked to input a version.** Simply input the number corresponding to your version of Windows and press enter.
-*If you don't know what version of windows you have, navigate to Settings->System->About and scroll to the Edition section.*
+**WINDOWS 10 HOME IS THE DEFAULT!** If you do *not* have Windows 10 Home, press the Settings icon in the upper-right, and then select your preferred version of Windows.
 
-Press `Start` once a version is selected, and Windows will be activated!
+Once the correct version is selected, press the Start button and the program will activate Windows! Some dialog boxes will popup, just click `OK`. These can give extra information about the activation.
 
-Accept all of the dialog boxes, or press `OK` and wait for the program to finish.
-Windows is now activated!
+Changing the **UI Sample Rate** slider will change the rate at which the RAM and CPU stats refresh. This interval is from `100ms` to `1000ms`.
 
-## Recent Patch:
-As of Release 1.5.2, all app icons can now be found in the `<WindowsActivator/WindowsActivator/Resources/>` folder.
+![Logo](https://i.imgur.com/UNtfrrT.png)
+
+### Credits:
+ - Development and UI Design - **[Strayfade](https://github.com/Strayfade)**
+ - Circular Progress Bar - **[Falahati](https://github.com/falahati/CircularProgressBar)**
+ - UI Inspiration - **[NiceHashMiner](https://github.com/nicehash/NiceHashMiner)**

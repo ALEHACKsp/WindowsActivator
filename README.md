@@ -24,7 +24,9 @@ Download Link: https://www.microsoft.com/en-us/download/confirmation.aspx?id=177
 
 Once the correct version is selected, press the Start button and the program will activate Windows! Some dialog boxes will popup, just click `OK`. These can give extra information about the activation.
 
-Changing the **UI Sample Rate** slider will change the rate at which the RAM and CPU stats refresh. This interval is from `100ms` to `1000ms`.
+Changing the **UI Update Rate** slider will change the rate at which the RAM and CPU stats refresh. This interval is from `100ms` to `1000ms`.
+
+*Experimental:* **Realtime UI** will make the `Available Memory` control update as soon as a change is detected, hence *Realtime*.
 
 ![Logo](https://i.imgur.com/UNtfrrT.png)
 

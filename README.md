@@ -29,6 +29,7 @@ Changing the **UI Sample Rate** slider will change the rate at which the RAM and
 ![Logo](https://i.imgur.com/UNtfrrT.png)
 
 # Bugs/Issues:
+![](https://img.shields.io/github/commits-since/Strayfade/WindowsActivator/latest?color=red&include_prereleases)
 
 **Known Bugs:**
  - Program freezes for 1-2 seconds during launch.

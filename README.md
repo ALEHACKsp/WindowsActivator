@@ -20,7 +20,14 @@ Changing the **UI Sample Rate** slider will change the rate at which the RAM and
 
 ![Logo](https://i.imgur.com/UNtfrrT.png)
 
-### Credits:
+# Bugs/Issues:
+
+**Known Bugs:**
+ - Program freezes for 1-2 seconds during launch.
+ 
+ 
+### *Find a Bug? Submit it [here](https://github.com/Strayfade/WindowsActivator/issues/new)!*
+## Credits:
  - Development and UI Design - **[Strayfade](https://github.com/Strayfade)**
  - Circular Progress Bar - **[Falahati](https://github.com/falahati/CircularProgressBar)**
  - UI Inspiration - **[NiceHashMiner](https://github.com/nicehash/NiceHashMiner)**

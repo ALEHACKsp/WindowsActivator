@@ -37,4 +37,3 @@ Changing the **UI Sample Rate** slider will change the rate at which the RAM and
  - UI Inspiration - **[NiceHashMiner](https://github.com/nicehash/NiceHashMiner)**
  - UI Themed Switches/Separators - **[Siticone](https://siticoneframework.com)**
  
-<img src="WindowsActivator/WindowsActivator/Resources/app.png" width="42" alt="Icon"> 

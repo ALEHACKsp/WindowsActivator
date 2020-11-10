@@ -1,8 +1,9 @@
 # WindowsActivator
 ![](https://img.shields.io/github/v/release/Strayfade/WindowsActivator)
-![](https://img.shields.io/github/license/Strayfade/WindowsActivator)
+![](https://img.shields.io/github/languages/code-size/Strayfade/WindowsActivator?color=orange&label=Download%20Size)
+![](https://img.shields.io/github/commit-activity/m/Strayfade/WindowsActivator)
 ![](https://img.shields.io/github/issues/Strayfade/WindowsActivator)
-![](https://img.shields.io/github/downloads/Strayfade/WindowsActivator/total)
+![](https://img.shields.io/github/license/Strayfade/WindowsActivator)
 
 Activates Windows Systematically (For Free)!
 

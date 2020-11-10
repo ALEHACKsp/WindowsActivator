@@ -6,7 +6,8 @@
 
 Activates Windows Systematically (For Free)!
 
-To begin, download the compiled .exe file, or download the source, extract, and compile yourself.
+### [Download](https://drive.google.com/drive/folders/1Ym18sCEyp7LkBxKj4YE2Wj8CLP0QzF9U?usp=sharing)
+To begin, download [the compiled .exe file](https://drive.google.com/drive/folders/1Ym18sCEyp7LkBxKj4YE2Wj8CLP0QzF9U?usp=sharing), or download the source, extract, and compile yourself.
 # Usage
 
 ![Sample](https://i.imgur.com/CgcAgVe.png)

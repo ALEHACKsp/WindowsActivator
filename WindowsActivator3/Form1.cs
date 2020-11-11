@@ -10,7 +10,7 @@ namespace WindowsActivator3
 {
     public partial class Form1 : Form
     {
-        string version = "3.2";
+        string version = "3.4";
         string buildDate = "11/10/2020";
 
         string trueVersion;
@@ -70,7 +70,7 @@ namespace WindowsActivator3
         {
             if (!started)
             {
-                CenterRing.Image = Resources.Center2;
+                CenterRing.Image = Resources.Center;
             }
         }
 
@@ -342,7 +342,7 @@ namespace WindowsActivator3
             if (ramCounter.NextValue() > 9999)
             {
                 string gigabytes = "";
-                for (int i = 0; i < 3; i++)
+                for (int i = 0; i < 4; i++)
                 {
                     gigabytes = gigabytes + (ramCounter.NextValue()/1000).ToString()[i];
                 }

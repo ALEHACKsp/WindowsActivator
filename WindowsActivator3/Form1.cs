@@ -10,7 +10,7 @@ namespace WindowsActivator3
 {
     public partial class Form1 : Form
     {
-        string version = "3.1";
+        string version = "3.2";
         string buildDate = "11/10/2020";
 
         string trueVersion;
@@ -63,14 +63,14 @@ namespace WindowsActivator3
         {
             if (!started)
             {
-                CenterRing.Image = Resources.CenterRing11;
+                CenterRing.Image = Resources.CenterRing2;
             }
         }
         private void CenterRing_MouseLeave(object sender, EventArgs e)
         {
             if (!started)
             {
-                CenterRing.Image = Resources.Center1;
+                CenterRing.Image = Resources.Center2;
             }
         }
 
@@ -271,7 +271,7 @@ namespace WindowsActivator3
         }
         void activate()
         {
-            CenterRing.Image = Resources.CenterRing11;
+            CenterRing.Image = Resources.CenterRing2;
             circularProgressBar1.Visible = true;
             setProgress(10);
             Thread.Sleep(250);

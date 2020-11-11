@@ -63,14 +63,14 @@ namespace WindowsActivator3
         {
             if (!started)
             {
-                CenterRing.Image = Resources.CenterRing;
+                CenterRing.Image = Resources.CenterRing11;
             }
         }
         private void CenterRing_MouseLeave(object sender, EventArgs e)
         {
             if (!started)
             {
-                CenterRing.Image = Resources.Center;
+                CenterRing.Image = Resources.Center1;
             }
         }
 
@@ -104,6 +104,7 @@ namespace WindowsActivator3
             radioButton9.Visible = false;
             radioButton10.Visible = false;
             label14.Text = regedit();
+            pictureBox4.Image = Resources.Play41;
         }
         public const int WM_NCLBUTTONDOWN = 0xA1;
         public const int HT_CAPTION = 0x2;
@@ -270,7 +271,7 @@ namespace WindowsActivator3
         }
         void activate()
         {
-            CenterRing.Image = Resources.CenterRing1;
+            CenterRing.Image = Resources.CenterRing11;
             circularProgressBar1.Visible = true;
             setProgress(10);
             Thread.Sleep(250);
@@ -333,7 +334,21 @@ namespace WindowsActivator3
         {
             PerformanceCounter ramCounter;
             ramCounter = new PerformanceCounter("Memory", "Available MBytes");
-            return ramCounter.NextValue() + "MB";
+            
+            if (ramCounter.NextValue() <= 8000)
+            {
+                return ramCounter.NextValue() + "MB";
+            }
+            if (ramCounter.NextValue() > 8000)
+            {
+                string gigabytes = "";
+                for (int i = 0; i < 2; i++)
+                {
+                    gigabytes = gigabytes + (ramCounter.NextValue()/1000).ToString()[i];
+                }
+                return gigabytes + "GB";
+            }
+            return "Unk " + "GB";
         }
         private void label8_Click(object sender, EventArgs e)
         {

@@ -172,6 +172,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app.ico" />
+    <None Include="Properties\Resources\Play4.png" />
+    <None Include="Properties\Resources\Pause3.png" />
     <None Include="Properties\Resources\CenterRing1.png" />
     <None Include="Properties\Resources\CenterRing.png" />
     <None Include="Properties\Resources\Center.png" />

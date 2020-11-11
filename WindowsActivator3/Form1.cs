@@ -335,14 +335,14 @@ namespace WindowsActivator3
             PerformanceCounter ramCounter;
             ramCounter = new PerformanceCounter("Memory", "Available MBytes");
             
-            if (ramCounter.NextValue() <= 8000)
+            if (ramCounter.NextValue() <= 9999)
             {
                 return ramCounter.NextValue() + "MB";
             }
-            if (ramCounter.NextValue() > 8000)
+            if (ramCounter.NextValue() > 9999)
             {
                 string gigabytes = "";
-                for (int i = 0; i < 2; i++)
+                for (int i = 0; i < 3; i++)
                 {
                     gigabytes = gigabytes + (ramCounter.NextValue()/1000).ToString()[i];
                 }

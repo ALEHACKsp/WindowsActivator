@@ -83,6 +83,16 @@ namespace WindowsActivator3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Center2 {
+            get {
+                object obj = ResourceManager.GetObject("Center2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CenterRing {
             get {
                 object obj = ResourceManager.GetObject("CenterRing", resourceCulture);
@@ -113,9 +123,29 @@ namespace WindowsActivator3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CenterRing12 {
+            get {
+                object obj = ResourceManager.GetObject("CenterRing12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap CenterRing2 {
             get {
                 object obj = ResourceManager.GetObject("CenterRing2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CenterRing3 {
+            get {
+                object obj = ResourceManager.GetObject("CenterRing3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -253,6 +283,16 @@ namespace WindowsActivator3.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Pause32 {
+            get {
+                object obj = ResourceManager.GetObject("Pause32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Plate {
             get {
                 object obj = ResourceManager.GetObject("Plate", resourceCulture);
@@ -326,6 +366,16 @@ namespace WindowsActivator3.Properties {
         internal static System.Drawing.Bitmap Play41 {
             get {
                 object obj = ResourceManager.GetObject("Play41", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Play42 {
+            get {
+                object obj = ResourceManager.GetObject("Play42", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

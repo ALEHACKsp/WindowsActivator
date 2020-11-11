@@ -187,4 +187,19 @@
   <data name="Play1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\WindowsActivator3\Resources\Play1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Center1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Center.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CenterRing11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CenterRing1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CenterRing2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\CenterRing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pause31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Pause3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Play41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\Play4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

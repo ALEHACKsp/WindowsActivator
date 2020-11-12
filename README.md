@@ -14,9 +14,9 @@ To begin, download [the compiled .exe file](https://github.com/Strayfade/Windows
 
 ![Sample](https://i.imgur.com/CgcAgVe.png)
 ### Required Software:
-**IMPORTANT: YOU MUST DOWNLOAD .Net Runtime 4 to run WindowsActivator.**
+**IMPORTANT: YOU MUST DOWNLOAD .Net Runtime 4.7.2 to run WindowsActivator.**
 
-Download Link: https://www.microsoft.com/en-us/download/confirmation.aspx?id=17718
+Download Link: https://dotnet.microsoft.com/download/dotnet-framework/thank-you/net472-web-installer
 
 ![](https://img.shields.io/badge/Prerequisities-.NET%20Runtime%204-violet)
 

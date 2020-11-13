@@ -10,10 +10,11 @@ namespace WindowsActivator3
 {
     public partial class Form1 : Form
     {
-        string version = "3.4";
-        string buildDate = "11/10/2020";
+        string version = "4.0";
+        string buildDate = "11/12/2020";
 
         string trueVersion;
+        string cmdPrefix = "slmgr.vbs //b ";
         bool started = false;
 
         public Form1()
@@ -23,10 +24,10 @@ namespace WindowsActivator3
 
         void setProgress(int progress)
         {
-            int z = circularProgressBar1.Value;
+            int z = siticoneCircleProgressBar1.Value;
             for (int i = z; i < progress; i++)
             {
-                circularProgressBar1.Value = i;
+                siticoneCircleProgressBar1.Value = i;
                 Thread.Sleep(19);
             }
         }
@@ -64,6 +65,7 @@ namespace WindowsActivator3
             if (!started)
             {
                 CenterRing.Image = Resources.CenterRing2;
+                pictureBox4.Image = Resources.Play69;
             }
         }
         private void CenterRing_MouseLeave(object sender, EventArgs e)
@@ -71,6 +73,7 @@ namespace WindowsActivator3
             if (!started)
             {
                 CenterRing.Image = Resources.Center;
+                pictureBox4.Image = Resources.Play41;
             }
         }
 
@@ -193,7 +196,7 @@ namespace WindowsActivator3
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = "/C slmgr /ipk " + licenseKey;
+            startInfo.Arguments =  cmdPrefix + "/ipk " + licenseKey;
             process.StartInfo = startInfo;
             process.Start();
             Thread.Sleep(500);
@@ -204,7 +207,7 @@ namespace WindowsActivator3
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = "/C slmgr /skms kms8.msguides.com";
+            startInfo.Arguments = cmdPrefix + "/skms kms8.msguides.com";
             process.StartInfo = startInfo;
             process.Start();
             Thread.Sleep(500);
@@ -215,7 +218,7 @@ namespace WindowsActivator3
             System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
             startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
             startInfo.FileName = "cmd.exe";
-            startInfo.Arguments = "/C slmgr /ato";
+            startInfo.Arguments = cmdPrefix + "/ato";
             process.StartInfo = startInfo;
             process.Start();
             Thread.Sleep(500);
@@ -269,28 +272,37 @@ namespace WindowsActivator3
             if (windowsVerInt == "10")
                 label10.Text = "Windows 10 " + "Enterprise N";
         }
+        void waitFor(int progress, int ms)
+        {
+            int x = siticoneCircleProgressBar1.Value;
+            for (int i = 0; i < (progress - x); i++)
+            {
+                siticoneCircleProgressBar1.Value = i;
+                Thread.Sleep(5);
+            }
+            Thread.Sleep(ms / (progress - x));
+        }
         void activate()
         {
             CenterRing.Image = Resources.CenterRing2;
-            circularProgressBar1.Visible = true;
-            setProgress(10);
-            Thread.Sleep(250);
+            siticoneCircleProgressBar1.Visible = true;
+            siticoneCircleProgressBar1.Value = 0;
+            waitFor(10, 500);
             windowsVerInt = windowsVersion();
             updateLabelText();
-            circularProgressBar1.Value = 20;
+            waitFor(27, 2000);
             installKMSClientKey(windowsVerInt);
-            circularProgressBar1.Value = 50;
+            waitFor(55, 3000);
             setKMSMachineAddress();
-            Thread.Sleep(1000);
-            circularProgressBar1.Value = 65;
+            waitFor(65, 1500);
                         //"Start WindowsActivator"
             label9.Text = "Finalizing Activation.";
             label10.Text = "";
-            Thread.Sleep(2000);
+            waitFor(90, 2000);
             finalize();
-            setProgress(100);
+            waitFor(100, 3000);
             label9.Text = "     Product Activated  ";
-            circularProgressBar1.Value = 100;
+            siticoneCircleProgressBar1.Value = 100;
             radioButton1.Enabled = false;
             radioButton2.Enabled = false;
             radioButton3.Enabled = false;
@@ -301,8 +313,16 @@ namespace WindowsActivator3
             radioButton11.Enabled = false;
             radioButton10.Enabled = false;
             radioButton9.Enabled = false;
+            showWindow2();
         }
-
+        void showWindow2()
+        {
+            if(showN)
+            {
+                Form2 se = new Form2();
+                se.Show();
+            }
+        }
         private void pictureBox3_Click(object sender, EventArgs e)
         {
             Form1.ActiveForm.WindowState = FormWindowState.Minimized;
@@ -313,6 +333,14 @@ namespace WindowsActivator3
             for (int i = 0; i < Environment.ProcessorCount; i++)
             {
                 coreCount++;
+            }
+            if (coreCount >= 10)
+            {
+                Data1.Location = new Point(67, 392);
+            }
+            else if (coreCount < 10)
+            {
+                Data1.Location = new Point(82, 391);
             }
             return coreCount.ToString();
         }
@@ -334,7 +362,14 @@ namespace WindowsActivator3
         {
             PerformanceCounter ramCounter;
             ramCounter = new PerformanceCounter("Memory", "Available MBytes");
-            
+            if (ramCounter.NextValue() >= 1000)
+            {
+                label8.Location = new Point(168, 410);
+            }
+            else if (ramCounter.NextValue() < 1000)
+            {
+                label8.Location = new Point(175, 410);
+            }
             if (ramCounter.NextValue() <= 9999)
             {
                 return ramCounter.NextValue() + "MB";
@@ -353,15 +388,22 @@ namespace WindowsActivator3
         private void label8_Click(object sender, EventArgs e)
         {
         }
+        private void label12_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process process = new System.Diagnostics.Process();
+            System.Diagnostics.ProcessStartInfo startInfo = new System.Diagnostics.ProcessStartInfo();
+            startInfo.WindowStyle = System.Diagnostics.ProcessWindowStyle.Hidden;
+            startInfo.FileName = "cmd.exe";
+            startInfo.Arguments = cmdPrefix + "/upk";
+            process.StartInfo = startInfo;
+            process.Start();
+            Thread.Sleep(500);
+            showWindow2();
+        }
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
             int updateSpeed = trackBar1.Value * 100;
             InitTimer(updateSpeed);
-        }
-
-        private void circularProgressBar1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void radioButton9_CheckedChanged(object sender, EventArgs e)
@@ -434,37 +476,6 @@ namespace WindowsActivator3
             System.Diagnostics.Process.Start("https://twitter.com/Strayfade/");
         }
 
-        private void siticoneOSToggleSwith1_CheckedChanged(object sender, EventArgs e)
-        {
-            settingsVisible = !settingsVisible;
-            if(siticoneOSToggleSwith1.Checked)
-            {
-                radioButton1.Visible = true;
-                radioButton2.Visible = true;
-                radioButton3.Visible = true;
-                radioButton4.Visible = true;
-                radioButton5.Visible = true;
-                radioButton6.Visible = true;
-                radioButton7.Visible = true;
-                radioButton11.Visible = true;
-                radioButton9.Visible = true;
-                radioButton10.Visible = true;
-            }
-            else if (!siticoneOSToggleSwith1.Checked)
-            {
-                radioButton1.Visible = false;
-                radioButton2.Visible = false;
-                radioButton3.Visible = false;
-                radioButton4.Visible = false;
-                radioButton5.Visible = false;
-                radioButton6.Visible = false;
-                radioButton7.Visible = false;
-                radioButton11.Visible = false;
-                radioButton9.Visible = false;
-                radioButton10.Visible = false;
-            }
-        }
-
         private void label10_Click(object sender, EventArgs e)
         {
             settingsVisible = !settingsVisible;
@@ -502,6 +513,18 @@ namespace WindowsActivator3
         private void label5_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("https://github.com/Strayfade/WindowsActivator");
+        }
+        bool showN = true;
+        private void siticoneOSToggleSwith2_CheckedChanged(object sender, EventArgs e)
+        {
+            if(siticoneOSToggleSwith2.Checked)
+            {
+                showN = false;
+            }
+            else if (!siticoneOSToggleSwith2.Checked)
+            {
+                showN = true;
+            }
         }
     }
 }

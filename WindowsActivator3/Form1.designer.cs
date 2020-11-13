@@ -50,7 +50,6 @@
             this.timer2 = new System.Windows.Forms.Timer(this.components);
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.label7 = new System.Windows.Forms.Label();
-            this.circularProgressBar1 = new CircularProgressBar.CircularProgressBar();
             this.label9 = new System.Windows.Forms.Label();
             this.radioButton9 = new System.Windows.Forms.RadioButton();
             this.radioButton10 = new System.Windows.Forms.RadioButton();
@@ -70,11 +69,13 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.siticoneOSToggleSwith1 = new Siticone.UI.WinForms.SiticoneOSToggleSwith();
-            this.label16 = new System.Windows.Forms.Label();
             this.siticoneSeparator1 = new Siticone.UI.WinForms.SiticoneSeparator();
             this.siticoneSeparator2 = new Siticone.UI.WinForms.SiticoneSeparator();
-            this.siticoneSeparator3 = new Siticone.UI.WinForms.SiticoneSeparator();
+            this.siticoneCircleProgressBar1 = new Siticone.UI.WinForms.SiticoneCircleProgressBar();
+            this.label17 = new System.Windows.Forms.Label();
+            this.siticoneDeviceID1 = new Siticone.UI.WinForms.SiticoneDeviceID();
+            this.label18 = new System.Windows.Forms.Label();
+            this.siticoneOSToggleSwith2 = new Siticone.UI.WinForms.SiticoneOSToggleSwith();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -175,11 +176,11 @@
             this.Data1.BackColor = System.Drawing.Color.Transparent;
             this.Data1.Font = new System.Drawing.Font("Segoe UI", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Data1.ForeColor = System.Drawing.SystemColors.Control;
-            this.Data1.Location = new System.Drawing.Point(67, 392);
+            this.Data1.Location = new System.Drawing.Point(75, 390);
             this.Data1.Name = "Data1";
-            this.Data1.Size = new System.Drawing.Size(67, 50);
+            this.Data1.Size = new System.Drawing.Size(52, 50);
             this.Data1.TabIndex = 5;
-            this.Data1.Text = "---";
+            this.Data1.Text = "--";
             // 
             // Label
             // 
@@ -199,7 +200,7 @@
             this.Label2.BackColor = System.Drawing.Color.Transparent;
             this.Label2.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Label2.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.Label2.Location = new System.Drawing.Point(578, 458);
+            this.Label2.Location = new System.Drawing.Point(638, 460);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(94, 20);
             this.Label2.TabIndex = 7;
@@ -211,11 +212,11 @@
             this.Data4.BackColor = System.Drawing.Color.Transparent;
             this.Data4.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Data4.ForeColor = System.Drawing.SystemColors.Control;
-            this.Data4.Location = new System.Drawing.Point(544, 374);
+            this.Data4.Location = new System.Drawing.Point(511, 376);
             this.Data4.Name = "Data4";
-            this.Data4.Size = new System.Drawing.Size(161, 17);
+            this.Data4.Size = new System.Drawing.Size(153, 17);
             this.Data4.TabIndex = 8;
-            this.Data4.Text = "[ PH ] WindowsActivator";
+            this.Data4.Text = "WindowsActivator [PH]";
             this.Data4.Click += new System.EventHandler(this.Data2_Click);
             // 
             // label1
@@ -224,11 +225,11 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(559, 408);
+            this.label1.Location = new System.Drawing.Point(511, 410);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 15);
+            this.label1.Size = new System.Drawing.Size(113, 15);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Build Date: 11/9/2020";
+            this.label1.Text = "Build Date: [   PH   ]";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label3
@@ -237,11 +238,11 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.Control;
-            this.label3.Location = new System.Drawing.Point(590, 427);
+            this.label3.Location = new System.Drawing.Point(511, 427);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 15);
+            this.label3.Size = new System.Drawing.Size(78, 15);
             this.label3.TabIndex = 10;
-            this.label3.Text = "Version: 3.0";
+            this.label3.Text = "Version: [PH]";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // pictureBox4
@@ -303,11 +304,11 @@
             this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.Control;
-            this.label8.Location = new System.Drawing.Point(168, 404);
+            this.label8.Location = new System.Drawing.Point(175, 405);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(84, 30);
+            this.label8.Size = new System.Drawing.Size(77, 30);
             this.label8.TabIndex = 19;
-            this.label8.Text = " ----MB";
+            this.label8.Text = "--------";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // timer2
@@ -338,41 +339,6 @@
             this.label7.Size = new System.Drawing.Size(96, 15);
             this.label7.TabIndex = 21;
             this.label7.Text = "UI Update Rate:";
-            // 
-            // circularProgressBar1
-            // 
-            this.circularProgressBar1.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.CubicEaseOut;
-            this.circularProgressBar1.AnimationSpeed = 20;
-            this.circularProgressBar1.BackColor = System.Drawing.Color.Transparent;
-            this.circularProgressBar1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.circularProgressBar1.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold);
-            this.circularProgressBar1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.circularProgressBar1.InnerColor = System.Drawing.Color.Transparent;
-            this.circularProgressBar1.InnerMargin = 2;
-            this.circularProgressBar1.InnerWidth = -1;
-            this.circularProgressBar1.Location = new System.Drawing.Point(308, 124);
-            this.circularProgressBar1.MarqueeAnimationSpeed = 2000;
-            this.circularProgressBar1.Name = "circularProgressBar1";
-            this.circularProgressBar1.OuterColor = System.Drawing.Color.Gray;
-            this.circularProgressBar1.OuterMargin = -25;
-            this.circularProgressBar1.OuterWidth = 26;
-            this.circularProgressBar1.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.circularProgressBar1.ProgressWidth = 25;
-            this.circularProgressBar1.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 36F);
-            this.circularProgressBar1.Size = new System.Drawing.Size(170, 164);
-            this.circularProgressBar1.StartAngle = 270;
-            this.circularProgressBar1.Step = 1;
-            this.circularProgressBar1.SubscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.circularProgressBar1.SubscriptMargin = new System.Windows.Forms.Padding(10, -35, 0, 0);
-            this.circularProgressBar1.SubscriptText = ".23";
-            this.circularProgressBar1.SuperscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
-            this.circularProgressBar1.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
-            this.circularProgressBar1.SuperscriptText = "°C";
-            this.circularProgressBar1.TabIndex = 3;
-            this.circularProgressBar1.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
-            this.circularProgressBar1.Value = 68;
-            this.circularProgressBar1.Visible = false;
-            this.circularProgressBar1.Click += new System.EventHandler(this.circularProgressBar1_Click);
             // 
             // label9
             // 
@@ -556,7 +522,7 @@
             this.label10.Cursor = System.Windows.Forms.Cursors.Hand;
             this.label10.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.Control;
-            this.label10.Location = new System.Drawing.Point(542, 194);
+            this.label10.Location = new System.Drawing.Point(537, 193);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(181, 25);
             this.label10.TabIndex = 35;
@@ -570,7 +536,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label11.Location = new System.Drawing.Point(544, 179);
+            this.label11.Location = new System.Drawing.Point(539, 178);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(100, 15);
             this.label11.TabIndex = 36;
@@ -582,11 +548,12 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonShadow;
-            this.label12.Location = new System.Drawing.Point(563, 224);
+            this.label12.Location = new System.Drawing.Point(544, 347);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(144, 15);
+            this.label12.Size = new System.Drawing.Size(198, 15);
             this.label12.TabIndex = 37;
-            this.label12.Text = "Press Settings to Change";
+            this.label12.Text = "Press here to Deactivate Windows";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label13
             // 
@@ -650,28 +617,6 @@
             this.label15.Text = "Twitter";
             this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
-            // siticoneOSToggleSwith1
-            // 
-            this.siticoneOSToggleSwith1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.siticoneOSToggleSwith1.Location = new System.Drawing.Point(376, 420);
-            this.siticoneOSToggleSwith1.Name = "siticoneOSToggleSwith1";
-            this.siticoneOSToggleSwith1.Size = new System.Drawing.Size(31, 19);
-            this.siticoneOSToggleSwith1.TabIndex = 42;
-            this.siticoneOSToggleSwith1.Text = "siticoneOSToggleSwith1";
-            this.siticoneOSToggleSwith1.CheckedChanged += new System.EventHandler(this.siticoneOSToggleSwith1_CheckedChanged);
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.BackColor = System.Drawing.Color.Transparent;
-            this.label16.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.SystemColors.Control;
-            this.label16.Location = new System.Drawing.Point(274, 421);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(96, 15);
-            this.label16.TabIndex = 43;
-            this.label16.Text = "Edition Chooser:";
-            // 
             // siticoneSeparator1
             // 
             this.siticoneSeparator1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
@@ -688,14 +633,62 @@
             this.siticoneSeparator2.Size = new System.Drawing.Size(702, 10);
             this.siticoneSeparator2.TabIndex = 45;
             // 
-            // siticoneSeparator3
+            // siticoneCircleProgressBar1
             // 
-            this.siticoneSeparator3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
-            this.siticoneSeparator3.Location = new System.Drawing.Point(-22, 64);
-            this.siticoneSeparator3.Name = "siticoneSeparator3";
-            this.siticoneSeparator3.Size = new System.Drawing.Size(823, 10);
-            this.siticoneSeparator3.TabIndex = 46;
-            this.siticoneSeparator3.Visible = false;
+            this.siticoneCircleProgressBar1.Animated = true;
+            this.siticoneCircleProgressBar1.BackColor = System.Drawing.Color.Transparent;
+            this.siticoneCircleProgressBar1.FillColor = System.Drawing.Color.Black;
+            this.siticoneCircleProgressBar1.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.siticoneCircleProgressBar1.Location = new System.Drawing.Point(317, 124);
+            this.siticoneCircleProgressBar1.Name = "siticoneCircleProgressBar1";
+            this.siticoneCircleProgressBar1.ProgressBrushMode = Siticone.UI.WinForms.Enums.BrushMode.SolidTransition;
+            this.siticoneCircleProgressBar1.ProgressColor = System.Drawing.Color.Black;
+            this.siticoneCircleProgressBar1.ProgressColor2 = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.siticoneCircleProgressBar1.ProgressEndCap = System.Drawing.Drawing2D.LineCap.Round;
+            this.siticoneCircleProgressBar1.ShadowDecoration.Mode = Siticone.UI.WinForms.Enums.ShadowMode.Circle;
+            this.siticoneCircleProgressBar1.ShadowDecoration.Parent = this.siticoneCircleProgressBar1;
+            this.siticoneCircleProgressBar1.Size = new System.Drawing.Size(159, 159);
+            this.siticoneCircleProgressBar1.TabIndex = 47;
+            this.siticoneCircleProgressBar1.UseTransparentBackground = true;
+            this.siticoneCircleProgressBar1.Visible = false;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.BackColor = System.Drawing.Color.Transparent;
+            this.label17.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.ForeColor = System.Drawing.SystemColors.ButtonShadow;
+            this.label17.Location = new System.Drawing.Point(539, 220);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(145, 15);
+            this.label17.TabIndex = 48;
+            this.label17.Text = "Open Settings to Change";
+            // 
+            // siticoneDeviceID1
+            // 
+            this.siticoneDeviceID1.DeviceIDType = Siticone.UI.WinForms.SiticoneDeviceID.DeviceIdentifierType.ProcessorID;
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.BackColor = System.Drawing.Color.Transparent;
+            this.label18.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.ForeColor = System.Drawing.SystemColors.Control;
+            this.label18.Location = new System.Drawing.Point(274, 429);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(163, 15);
+            this.label18.TabIndex = 50;
+            this.label18.Text = "Disable Restart Notification:";
+            // 
+            // siticoneOSToggleSwith2
+            // 
+            this.siticoneOSToggleSwith2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(16)))), ((int)(((byte)(16)))), ((int)(((byte)(16)))));
+            this.siticoneOSToggleSwith2.Location = new System.Drawing.Point(439, 427);
+            this.siticoneOSToggleSwith2.Name = "siticoneOSToggleSwith2";
+            this.siticoneOSToggleSwith2.Size = new System.Drawing.Size(31, 19);
+            this.siticoneOSToggleSwith2.TabIndex = 49;
+            this.siticoneOSToggleSwith2.Text = "siticoneOSToggleSwith2";
+            this.siticoneOSToggleSwith2.CheckedChanged += new System.EventHandler(this.siticoneOSToggleSwith2_CheckedChanged);
             // 
             // Form1
             // 
@@ -704,11 +697,12 @@
             this.BackgroundImage = global::WindowsActivator3.Properties.Resources.Plate;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(784, 573);
-            this.Controls.Add(this.siticoneSeparator3);
+            this.Controls.Add(this.label18);
+            this.Controls.Add(this.siticoneOSToggleSwith2);
+            this.Controls.Add(this.label17);
+            this.Controls.Add(this.siticoneCircleProgressBar1);
             this.Controls.Add(this.siticoneSeparator2);
             this.Controls.Add(this.siticoneSeparator1);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.siticoneOSToggleSwith1);
             this.Controls.Add(this.label15);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.checkBox1);
@@ -727,7 +721,6 @@
             this.Controls.Add(this.radioButton2);
             this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.circularProgressBar1);
             this.Controls.Add(this.CenterRing);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label7);
@@ -752,7 +745,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(784, 573);
             this.MinimumSize = new System.Drawing.Size(784, 573);
-            this.Name = "WindowsActivator";
+            this.Name = "Form1";
             this.Text = "WindowsActivator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
@@ -790,7 +783,6 @@
         private System.Windows.Forms.Timer timer2;
         private System.Windows.Forms.TrackBar trackBar1;
         private System.Windows.Forms.Label label7;
-        private CircularProgressBar.CircularProgressBar circularProgressBar1;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.RadioButton radioButton9;
         private System.Windows.Forms.RadioButton radioButton10;
@@ -810,11 +802,13 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private Siticone.UI.WinForms.SiticoneOSToggleSwith siticoneOSToggleSwith1;
-        private System.Windows.Forms.Label label16;
         private Siticone.UI.WinForms.SiticoneSeparator siticoneSeparator1;
         private Siticone.UI.WinForms.SiticoneSeparator siticoneSeparator2;
-        private Siticone.UI.WinForms.SiticoneSeparator siticoneSeparator3;
+        private Siticone.UI.WinForms.SiticoneCircleProgressBar siticoneCircleProgressBar1;
+        private System.Windows.Forms.Label label17;
+        private Siticone.UI.WinForms.SiticoneDeviceID siticoneDeviceID1;
+        private System.Windows.Forms.Label label18;
+        private Siticone.UI.WinForms.SiticoneOSToggleSwith siticoneOSToggleSwith2;
     }
 }
 

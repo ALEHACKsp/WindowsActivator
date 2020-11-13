@@ -6,8 +6,8 @@
 
 Activates Windows Systematically (For Free)!
 
-### [Download](github.com/Strayfade/WindowsActivator/releases/latest)
-To begin, download [the compiled .exe file](github.com/Strayfade/WindowsActivator/releases/latest), or download the source, extract, and compile yourself. **Make sure the other DLLs are in the SAME DIRECTORY as the executable.**
+### [Download](https://github.com/Strayfade/WindowsActivator/releases/latest)
+To begin, download [the compiled .exe file](https://github.com/Strayfade/WindowsActivator/releases/latest), or download the source, extract, and compile yourself. **Make sure the other DLLs are in the SAME DIRECTORY as the executable.**
 
 ![](https://img.shields.io/github/languages/code-size/Strayfade/WindowsActivator?color=orange&label=Download%20Size)
 # Usage

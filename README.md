@@ -34,7 +34,7 @@ Changing the **UI Update Rate** slider will change the rate at which the RAM and
 ![](https://img.shields.io/github/commits-since/Strayfade/WindowsActivator/latest?color=red&include_prereleases)
 
 **Known Bugs:**
- - Program freezes for 1-2 seconds during launch.
+ - None, so far...
  
  
 ### *Find a Bug? Submit it [here](https://github.com/Strayfade/WindowsActivator/issues/new)!*

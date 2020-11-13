@@ -1,4 +1,4 @@
-# WindowsActivator
+# WindowsActivator (LEGACY)
 ![Logo](/WindowsActivator/WindowsActivator/Resources/app.png)
 
 Activates Windows Systematically! (For Free)
@@ -20,4 +20,4 @@ Accept all of the dialog boxes, or press `OK` and wait for the program to finish
 Windows is now activated!
 
 ## Recent Patch:
-As of Release 1.5.2, all app icons can now be found in the `<WindowsActivator/WindowsActivator/Resources/>` folder.
+***UPDATE*: ALL WINDOWSACTIVATOR DEVELOPMENT HAS BEEN RELOCATED TO [ACTIVE BRANCH](https://github.com/Strayfade/WindowsActivator/tree/Active)**

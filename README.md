@@ -7,6 +7,7 @@
 Activates Windows Systematically (For Free)!
 
 ### [Download](https://github.com/Strayfade/WindowsActivator/releases/latest)
+
 To begin, download [the compiled .exe file](https://github.com/Strayfade/WindowsActivator/releases/latest), or download the source, extract, and compile yourself. **Make sure the other DLLs are in the SAME DIRECTORY as the executable.**
 
 ![](https://img.shields.io/github/languages/code-size/Strayfade/WindowsActivator?color=orange&label=Download%20Size)
@@ -38,6 +39,9 @@ Changing the **UI Update Rate** slider will change the rate at which the RAM and
  
  
 ### *Find a Bug? Submit it [here](https://github.com/Strayfade/WindowsActivator/issues/new)!*
+
+![](https://img.shields.io/github/downloads/Strayfade/WindowsActivator/total?color=orange)
+
 ## Credits:
  - Development and UI Design - **[Strayfade](https://github.com/Strayfade)**
  - Circular Progress Bar - **[Falahati](https://github.com/falahati/CircularProgressBar)**
